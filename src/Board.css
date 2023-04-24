@@ -1,0 +1,32 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  background-color: #fff;
+  border: 1px solid black;
+  font-size: 48px;
+  font-weight: bold;
+  height: 64px;
+  width: 64px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.status {
+  margin-bottom: 10px;
+}
